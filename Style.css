@@ -1,0 +1,81 @@
+body {
+  height: 2000px;
+}
+
+/* NAVBAR */
+.navbar-brand {
+  font-family: "valorant";
+}
+/* NAVBAR END */
+
+/* JUMBROTON */
+.jumbotron {
+  padding: 10rem;
+  background-color: #62727b;
+  height: 550px;
+}
+.display-4 {
+  font-family: "BLACK FRIDAY";
+  font-size: 80px;
+}
+.text .intro {
+  font-family: "Roboto";
+  font-size: 15px;
+}
+/* JUMBROTON END */
+
+/* ABOUT ME */
+.row {
+  padding-top: 5rem;
+}
+
+.aboutme .container .row {
+  padding-top: -30px;
+}
+
+/* ABOUT ME END */
+
+/* PROJECTS */
+
+.container .card {
+  margin-top: 20px;
+}
+
+/* PROJECTS END */
+
+/* CCONTACT ME */
+
+/* CONTACT ME END */
+
+/* FOOTER */
+footer .row {
+  padding: 0;
+}
+
+/* FOOTER END */
+
+/* RESPONSIVE */
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-family: "BLACK FRIDAY";
+    font-size: 130px;
+  }
+  .text .intro {
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+  .jumbotron {
+    height: 550px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .jumbotron {
+    padding: 5rem;
+  }
+  .display-4 {
+    font-family: "BLACK FRIDAY";
+    font-size: 70px;
+  }
+}
